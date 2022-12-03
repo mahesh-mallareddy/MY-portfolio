@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family:  'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+header{
+    background-color: rgb(37, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo h1{
+    color: whitesmoke;
+    font-size:41px;
+    padding: 10px 35px;
+    
+}
+.logo span{
+    color: red;
+}
+
+div.menubtn {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(249, 247, 247);
+    margin: 6px 0;
+    cursor: pointer;
+    
+}
+
+.list ul{
+display: flex;
+padding: 23px 0;
+}
+ 
+.list ul li a{
+    color: white;
+margin: 0 25px;
+font-size: 26px;
+font-weight: 645;
+}

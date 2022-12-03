@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;1,200&family=Lato:wght@100;300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/navibar.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <h1>portfo<span>lio</span> </h1>
+        </div>
+        <div class="list">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">skills</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+        <div class="menubtnbox">
+            <div class="menubtn"></div>
+            <div class="menubtn"></div>
+            <div class="menubtn"></div>
+        </div>
+    </header>
+    <main class="info">
+        <div class="lines">
+            <h2>Hi I'm Mahesh </h2>
+            <p> <br>this is my official portfolio website</p>
+            <p>here review my profile - CV</p>
+            <a href="./pdfCV.pdf" download="CV" >download cv</a>
+        </div>
+        <div class="bgimage">
+            <img src="myimage.png" alt="image" class="myimage">
+            <!-- <img src="img.bmp" alt="s-bg" > -->
+        </div>
+    </main>
+    <skills>
+        <div class="skills">
+            <h3>skills</h3>
+            <p>programing language- JAVA</p>
+            <p>data base- MYSQL</p>
+        </div>
+            <div class="devolop">
+                <h4></h4>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>Java Script</p>
+            </div>
+    </skills>
+    <sub>
+        <div class="submain">
+            <p>Check profiles - projects and certifications</p><br>
+            <img src="img/linkedin.png" alt="linkedin"> 
+            <a href="https://www.linkedin.com/in/mahesh-mallareddy-bb7423236" class="LinkedIn">LinkedIn</a><br>
+            <img src="img/git.png" alt="github">
+            <a href="https://github.com/mahesh-mallareddy" class="GitHub" >GitHub</a>
+        </div>
+    </sub>
+   
+
+    <footer>
+        <h3>HIRE ME </h3> 
+         <p>contact :+91-xxxxxxxxxx <br>hyderabad-TS</p>  
+    </footer>
+    <script>
+        menubtnbox = document.querySelector(".menubtnbox");
+        menubtnbox.onclick = function () {
+            navbar = document.querySelector(".list");
+            navbar.classList.toggle("active");
+
+        }
+    </script>
+</body>
+
+</html>
